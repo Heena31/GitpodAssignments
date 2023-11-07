@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 public class RectangleTest {
 
     @Test
-    void shouldReturnTheAreaOfRectangleIfTheLengthAndBreadthAreGiven()
+    void shouldReturnTheAreaOfRectangleWhenTheLengthAndBreadthAreGiven()
     {
         Rectangle rectangle=new Rectangle(3,6);
         int area=rectangle.area();
